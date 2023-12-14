@@ -1,9 +1,9 @@
-lst = [2,3,4,5,6,7,8,9]
+def calculate_rectangle_area(length, width):
+    area = length * width
+    return area
 
-for i in lst:
-    if i%2==0 and i!=0:
-        print(i)
-        
-    
+# Calculate the area of a rectangle with length 5 and width 10
+area = calculate_rectangle_area(5, 10)
+print("The area of the rectangle is:", area)
 
 
