@@ -1,6 +1,5 @@
-def caluculated_area(length, width):
-    area = length * width
-    return area
+a = 10
+b = 20
 
-result = caluculated_area(10,15)
-print(result)
+c = a+b
+print(c)
